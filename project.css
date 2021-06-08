@@ -1,0 +1,92 @@
+body { background-color: #EBE8E7; 
+        color: #DE5499;
+        font-family: "Trebuchet MS", sans-serif;
+        background-image: url(bgtop.jpg);
+        background-repeat: repeat-x; }
+h1   { background-image: linear-gradient(to right, #264143, #b8e3cb);
+       color: #e6e6fa; 
+	   line-height: 160%;
+	   font-family: Helvetica, sans-serif;
+	   text-indent: .6em; }
+h2   { background-color: #EDDCD9; 
+       color: #4C364D; 
+	   font-family: "Trebuchet MS", sans-serif;
+	   text-align: center; 
+       border-top: solid #264143; 
+       border-bottom: solid #264143;
+       padding-bottom: 3px}
+nav   { font-weight: bold;
+       word-spacing: 1.5em; }
+a { text-decoration: none; 
+    font-size: 18pt;
+    color: #E99F4C; }
+p { font-size: 18px;
+	    color: #264143;
+    text-align: left; }
+ul { font-weight: bold; 
+           color: #D96846}
+dd { font-weight: bold; 
+           color: #D96846 }
+dt { font-weight: bold; 
+           color: #264143 }
+ol { font-weight: bold; 
+           color: #264143 }
+footer   { color: #333333;
+		   font-size: 9pt;
+		   font-style: italic;
+           font-weight: bold; }
+.cname { font-size: 1.2em;  font-family: sans-serif;}
+#wrapper { margin-left: auto;
+margin-right: auto;
+width: 80%; }
+#video {
+   margin-left: 30px;
+   margin-bottom: 30px;
+   margin-top:  30px;
+}
+figure {
+    padding: 4px;
+    border: 2px #264143 solid;
+    text-align: center;
+    width: 320px;
+}
+figcaption {
+  background-color: #EDDCD9;
+  color: #4C364D;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+#roundlist {
+ border-radius: 12px;
+ background: rgba(233, 209, 166, 0.4);
+ background-origin: border-box;
+ padding: 5px;
+ box-shadow: 1px 2px #264143;
+ background-clip: border-box;
+}
+
+label {
+    color: #4C364D;
+}
+
+legend {
+    font-weight: bold; 
+    color: #D96846
+}
+
+fieldset {
+    border-radius: 12px;
+    border-color: #264143;
+}
+#suggestbutton {
+    font-weight: bold;
+    background-color: #eddcd9;
+    color: #8c473c;
+}
+
+
+
+
+

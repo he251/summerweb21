@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+<link href="project.css" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+  <h1><span class="cname">Clothes I like</span></h1>
+  </header>
+  <nav>
+<a href="project.html">Home</a> <a href="inspiration.html">Inspiration</a> <a href="patterns.html">Patterns</a> <a href="about.html">About</a> <a href="Contact.html">Contact</a>
+</nav>
+<main>
+<h2>Contact</h2>
+<p>This section of the site is where you can suggest patterns for me to try following!</p>
+
+<div id="roundlist">
+<form name="patternsuggestion" id="patternsuggestion" method="post" action="mailto:jbaldwin@ramapo.edu">
+<fieldset>
+<legend>Your information</legend>
+<label for="uname">Name: <input type="text" name="uname" id="uname" required="required"></label>
+
+<br>
+<br>
+
+<label for="email">Email: <input type="text" name="email" id="email" required="required"></label>
+<br>
+<br>
+<label for="birthday">Birthday:</label>
+<input type="date" name="birthday" id="birthday">
+</fieldset>
+
+<br>
+<br>
+<fieldset>
+<legend>Pattern Information</legend>
+<label for="fabricType">Fabric type: <select size="1" name="fabricType" id="fabricType"></label>
+ <option>Choose a fabric type</option>
+ <option value="Cotton">Cotton</option>
+ <option value="Polyester">Polyester</option>
+ <option value="Blend">Blend</option>
+ <option value="Silk">Silk</option>
+</select>
+
+<br>
+<br>
+
+<textarea name="suggestions" id="suggestions" cols="38" rows="4" placeholder="Enter your suggestions of patterns to try making"></textarea>
+
+<br>
+<br>
+
+<label for="stitchLength">Choose a stitch length between 1 and 4:</label><br>
+1 <input type="range" name="stitchLength" id="stitchLength" min="1"
+max="4"> 4
+<br>
+<br>
+<img src="stitch.png" alt="Stitch type">
+<br>
+<br>
+<label for="stitchChoice">Choose a stitch type from guide above</label>
+<input type="number" name="stitchChoice" id="stitchChoice" min="1" max="4">
+<br>
+<br>
+<input id="suggestbutton" type="submit" value="Suggest Pattern">
+</fieldset>
+</form>
+
+
+
+
+
+
+</div>
+<br>
+
+</main>
+<footer><small><em>&copy; 2021 Jeffrey Baldwin</em></small></footer>
+</body>
+</html>
+
+
+
+
